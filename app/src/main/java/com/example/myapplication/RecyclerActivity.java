@@ -25,7 +25,7 @@ public class RecyclerActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         Log.w(TAG,"starting");
-
+        //throw new NullPointerException();
     }
 
 protected void onResume() {
