@@ -8,7 +8,7 @@ import android.util.Log;
 
 public class RecyclerActivity extends AppCompatActivity {
     public  static String TAG = RecyclerActivity.class.getSimpleName();
-    String[] countries = new String[]{"Russia","Ukraine","UK","Germany","US","China"}; //data = plug
+    String[] countries = new String[]{"Russia","Ukraine","UK","Germany","US","China","US","China","US","China","US","China","US","China"}; //data = plug
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

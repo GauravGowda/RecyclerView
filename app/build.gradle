@@ -7,6 +7,7 @@ android {
     compileSdkVersion 32
     buildToolsVersion "32.0.0"
 
+
     defaultConfig {
         applicationId "com.example.myapplication"
         minSdkVersion 30
@@ -14,6 +15,7 @@ android {
         versionCode 1
         versionName "1.0"
         multiDexEnabled true
+        //val core_version = "1.6.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -29,6 +31,7 @@ android {
 }
 
 dependencies {
+    //implementation("androidx.core:core-ktx:$core_version")
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation 'com.google.android.gms:play-services-maps:18.0.1'
     implementation 'com.google.android.gms:play-services-location:19.0.0'

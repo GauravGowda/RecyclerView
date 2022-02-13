@@ -30,11 +30,7 @@
         </receiver>
 
         <activity android:name=".LocationActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -54,7 +50,14 @@
         <activity android:name=".ContentProviderActivity" />
         <activity android:name=".Firestore" />
         <activity android:name=".HomeActivity" />
-        <activity android:name=".RecyclerActivity" />
+        <activity android:name=".RecyclerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
         <activity android:name=".MainActivity" />
     </application>
 
